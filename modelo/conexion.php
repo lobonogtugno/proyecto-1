@@ -2,7 +2,7 @@
 class conexion{
     private $conexion;
     private $server="127.0.0.1:3306";
-    private $user="yno3096";
+    private $user="u948906608_yno3096";
     private $pass="Yno3096@";
     private $database="u948906608_teejutji";
 

@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  .wrapper {
+    width: 100%;
+    margin: auto;
+    overflow:hidden;
+    position: relative;
+    float: left;
+  }
+  header {
+    background: rgb(9, 83, 219);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+   /* opacity: .5;*/
+  }
+  .uno{
+    width: 90%;
+
+  }
+
+  nav {
+   /*float: left; /* Desplazamos el nav hacia la izquierda */
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  .userr {
+    position: relative;
+    padding: 20px;
+    float:right;
+    color: #fff;
+  }
+  nav ul li:hover {
+    background: #3ead47;
+  }
+  .contenido {
+    padding-top: 80px;
+  }
+  
+  .derecha  {
+      position: relative;
+      padding: 15px;
+      float:right;
+  }
+  .contenedor_de_articulos{
+    display: flex;
+  }
+  .alinear{
+    position: relative;
+    float:right;
+    width: 10%;
+    margin-top: 0px;
+    
+  }
+  
+  
+    

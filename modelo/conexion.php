@@ -1,10 +1,10 @@
 <?php
 class conexion{
     private $conexion;
-    private $server="localhost";
-    private $user="root";
-    private $pass="";
-    private $database='teejutji';
+    private $server="tlaxiaco.casa";
+    private $user="yno3096";
+    private $pass="Yno3096@";
+    private $database='u948906608_teejutji';
 
     function __construct(){
         $this->conexion=@new mysqli($this->server,$this->user,$this->pass,$this->database); 

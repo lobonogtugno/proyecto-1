@@ -4,7 +4,7 @@ class conexion{
     private $server="127.0.0.1:3306";
     private $user="yno3096";
     private $pass="Yno3096@";
-    private $database='https://auth-db125.hstgr.io/index.php?route=/database/structure&db=u948906608_teejutji';
+    private $database='/database/structure&db=u948906608_teejutji';
 
     function __construct(){
         $this->conexion=@new mysqli($this->server,$this->user,$this->pass,$this->database); 
